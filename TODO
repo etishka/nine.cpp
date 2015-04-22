@@ -1,0 +1,29 @@
+FEATURE - new functionality of the project
+DESIGN  - notes about whole architecture
+ADM     - administrative tasks
+
+short-term:
+===========
+[TODO] [FEATURE] GUI using Qt4, initial version which just works (Windows, Linux) && KDE port
+[TODO] [FEATURE] redeal cards if player gets four aces or four nines or four sixes
+[TODO] [DESIGN]  Write Unit tests
+[TODO] [DESIGN]  Cross-platform build system should be used. Autoconf? review existing solutions.
+[TODO] [FEATURE] Add accounting
+[TODO] [FEATURE] Add AdvancedPlayer
+[TODO] [FEATURE] Add localization and english translation
+[TODO] [FEATURE] Add persistence
+[TODO] [DESIGN]  Improve logging. Review existing logging libraries. log4c?
+---
+[DONE] [DESIGN]  Make class game abstract, with pure virtual startGame function.
+[DONE] [DESIGN]  Makefile. Ugly. But works. Need more investigation.
+[DONE] [FEATURE] implement ConsolePlayer
+
+
+long-term:
+==========
+[TODO] [FEATURE] Network version
+[TODO] [FEATURE] skinnable gui interface
+[TODO] [ADM]     review open source licences (GPLv2, GPLv3, MPL, BSD...)
+[TODO] [ADM]     open sourceforge project
+[TODO] [ADM]     make version for mobiles (Qtopia?)
+[TODO] [ADM]     make network version for mobiles
